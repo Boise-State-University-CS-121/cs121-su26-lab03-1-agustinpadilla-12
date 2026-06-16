@@ -8,6 +8,7 @@ public class AccountGenerator {
         /*Input Processing */
         Scanner kbd = new Scanner(System.in);
         Random randGen = new Random();
+        
         System.out.print("Enter your first name: ");
         String userFirstName = kbd.nextLine();
         System.out.print("Enter your last name: ");
